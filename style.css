@@ -1,0 +1,59 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 0%);
+  --dark-gray: hsl(0, 0%, 55%);
+  --very-dark-gray: hsl(0, 0%, 41%);
+  --fw-300-sans: 300;
+  --fw-400-alata: 400;
+  --ff-alata: 'Alata', sans-serif;
+  --ff-josefin-sans: 'Josefin Sans', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+body {
+  font-family: var(--ff-josefin-sans);
+  background-color: var(--white);
+  color: var(--white);
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+}
+
+.background-image {
+  padding: 20px;
+  background-color: var(--black);
+  background-image: url(images/mobile/image-hero.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  display: grid;
+  align-items: baseline;
+}
+
+.navigation-mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-box {
+  /* text-align: left; */
+  margin: 0 auto;
+  text-transform: uppercase;
+  padding: 40px 20px;
+  border: 3px solid var(--white);
+}
+
+.hero-title {
+  /* text-wrap:balance; */
+  font-family: var(--ff-josefin-sans);
+  text-align:left;
+  font-size: 2.5rem;
+  font-weight: var(--fw-300-sans);
+}
