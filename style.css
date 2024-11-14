@@ -41,6 +41,17 @@ body {
   align-items: baseline;
 }
 
+.overlay {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  padding: 20px;
+  
+}
+
 .navigation-mobile {
   display: flex;
   justify-content: space-between;
@@ -81,7 +92,6 @@ body {
 
 .hero-title {
   /* text-wrap:balance; */
-  font-family: var(--ff-josefin-sans);
   text-align:left;
   font-size: 2.5rem;
   font-weight: var(--fw-300-sans);
@@ -91,17 +101,26 @@ body {
 
 .second-section {
   margin-top: 1rem;
+  padding: 20px 13px;
+}
+.second-section-text {
+  text-align: center;
+  margin: 18px;
+  
 }
 
+.second-section-title {
+  font-weight: var(--fw-300-sans); 
+  font-size: 2.9rem;
+  color: var(--black);
+  text-transform: uppercase;
+  text-wrap:balance;
+}
 
+.second-section-paragraph {
+  font-family: var(--ff-alata);
+  font-weight: var(--fw-400-alata);
+  font-size: 1.2rem;
+  color: var(--dark-gray);
 
-.overlay {
-  position: fixed;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: black;
-  padding: 20px;
-  
 }
