@@ -16,7 +16,7 @@
   <body>
     <div class="background-image">
       <div class="overlay" style="display: none"></div>
-      <nav class="navigation-mobile mobile">
+      <nav class="navigation-mobile">
         <img class="logo" src="images/logo.svg" alt="company-logo" />
         <img
           class="menu-icon"
@@ -30,11 +30,41 @@
           style="display: none"
         />
         <ul class="navigation-items" style="display: none">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Support</a></li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              >About</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              >Careers</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              >Events</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              >Products</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+              >Support</a
+            >
+          </li>
         </ul>
       </nav>
 
@@ -44,11 +74,17 @@
     </div>
 
     <div class="second-section">
-      <img
-        class="second-section-img"
-        src="images/mobile/image-interactive.jpg"
-        alt="interactive"
-      />
+      <picture class="picture">
+        <source
+          srcset="images/desktop/image-interactive.jpg"
+          media="(min-width:700px)"
+        />
+        <img
+          class="second-section-img"
+          src="images/mobile/image-interactive.jpg"
+          alt="interactive"
+        />
+      </picture>
 
       <div class="second-section-text">
         <h1 class="second-section-title">The leader in interactive VR</h1>
@@ -60,10 +96,17 @@
         </p>
       </div>
     </div>
+
     <div class="gallery">
       <h1 class="gallery-header">Our creations</h1>
       <div class="gallery-item">
-        <img src="images/mobile/image-deep-earth.jpg" alt="deep-earth" />
+        <picture>
+          <source
+            srcset="images/desktop/image-deep-earth.jpg"
+            media="(min-width : 700px)"
+          />
+          <img src="images/mobile/image-deep-earth.jpg" alt="deep-earth" />
+        </picture>
         <div class="overlayimg"></div>
         <h1 class="gallery-item-title">
           Deep <br />
@@ -71,7 +114,13 @@
         </h1>
       </div>
       <div class="gallery-item">
-        <img src="images/mobile/image-night-arcade.jpg" alt="night-arcade" />
+        <picture>
+          <source
+            srcset="images/desktop/image-night-arcade.jpg"
+            media="(min-width : 700px)"
+          />
+          <img src="images/mobile/image-night-arcade.jpg" alt="night-arcade" />
+        </picture>
         <div class="overlayimg"></div>
         <h1 class="gallery-item-title">
           Night<br />
@@ -79,7 +128,13 @@
         </h1>
       </div>
       <div class="gallery-item">
-        <img src="images/mobile/image-soccer-team.jpg" alt="soccer-team" />
+        <picture>
+          <source
+            srcset="images/desktop/image-soccer-team.jpg"
+            media="(min-width : 700px)"
+          />
+          <img src="images/mobile/image-soccer-team.jpg" alt="soccer-team" />
+        </picture>
         <div class="overlayimg"></div>
         <h1 class="gallery-item-title">
           Soccer <br />
@@ -87,7 +142,13 @@
         </h1>
       </div>
       <div class="gallery-item">
-        <img src="images/mobile/image-grid.jpg" alt="grid" />
+        <picture>
+          <source
+            srcset="images/desktop/image-grid.jpg"
+            media="(min-width : 700px)"
+          />
+          <img src="images/mobile/image-grid.jpg" alt="grid" />
+        </picture>
         <div class="overlayimg"></div>
         <h1 class="gallery-item-title">
           The <br />
@@ -95,7 +156,13 @@
         </h1>
       </div>
       <div class="gallery-item">
-        <img src="images/mobile/image-from-above.jpg" alt="from-above" />
+        <picture>
+          <source
+            srcset="images/desktop/image-from-above.jpg"
+            media="(min-width : 700px)"
+          />
+          <img src="images/mobile/image-from-above.jpg" alt="from-above" />
+        </picture>
         <div class="overlayimg"></div>
         <h1 class="gallery-item-title">
           From up <br />
@@ -103,10 +170,16 @@
         </h1>
       </div>
       <div class="gallery-item">
-        <img
-          src="images/mobile/image-pocket-borealis.jpg"
-          alt="pocket-borealis"
-        />
+        <picture>
+          <source
+            srcset="images/desktop/image-pocket-borealis.jpg"
+            media="(min-width : 700px)"
+          />
+          <img
+            src="images/mobile/image-pocket-borealis.jpg"
+            alt="pocket-borealis"
+          />
+        </picture>
         <div class="overlayimg"></div>
         <h1 class="gallery-item-title">
           Pocket <br />
@@ -114,7 +187,13 @@
         </h1>
       </div>
       <div class="gallery-item">
-        <img src="images/mobile/image-curiosity.jpg" alt="curiosity" />
+        <picture>
+          <source
+            srcset="images/desktop/image-curiosity.jpg"
+            media="(min-width : 700px)"
+          />
+          <img src="images/mobile/image-curiosity.jpg" alt="curiosity" />
+        </picture>
         <div class="overlayimg"></div>
         <h1 class="gallery-item-title">
           The <br />
@@ -122,32 +201,63 @@
         </h1>
       </div>
       <div class="gallery-item">
-        <img src="images/mobile/image-fisheye.jpg" alt="fisheye" />
+        <picture>
+          <source
+            srcset="images/desktop/image-fisheye.jpg"
+            media="(min-width : 700px)"
+          />
+          <img src="images/mobile/image-fisheye.jpg" alt="fisheye" />
+        </picture>
         <div class="overlayimg"></div>
         <h1 class="gallery-item-title">
           Make it <br />
           fisheye
         </h1>
       </div>
-      <a class="gallery-button" href="#">see all</a>
+      <a
+        class="gallery-button"
+        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+        target="_blank"
+        >see all</a
+      >
     </div>
 
     <footer class="footer">
-      <img class="logo" src="images/logo.svg" alt="company-logo">
-       <ul class="footer-items">
-          <li><a href="#">About</a></li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Products</a></li>
-          <li><a href="#">Support</a></li>
-        </ul>
-        <div class="companies">
-          <img class="company" src="images/icon-facebook.svg" alt="">
-          <img class="company" src="images/icon-twitter.svg" alt="">
-          <img class="company" src="images/icon-pinterest.svg" alt="">
-          <img class="company" src="images/icon-instagram.svg" alt="">
-        </div>
-        <p class="credits">© 2021 Loopstudios. All rights reserved.</p>
+      <img class="logo" src="images/logo.svg" alt="company-logo" />
+      <ul class="footer-items">
+        <li>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+            >About</a
+          >
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+            >Careers</a
+          >
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+            >Events</a
+          >
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+            >Products</a
+          >
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+            >Support</a
+          >
+        </li>
+      </ul>
+      <div class="companies">
+        <img class="company" src="images/icon-facebook.svg" alt="" />
+        <img class="company" src="images/icon-twitter.svg" alt="" />
+        <img class="company" src="images/icon-pinterest.svg" alt="" />
+        <img class="company" src="images/icon-instagram.svg" alt="" />
+      </div>
+      <p class="credits">© 2021 Loopstudios. All rights reserved.</p>
     </footer>
   </body>
 </html>
