@@ -296,6 +296,7 @@ body {
     margin-top: 4rem;
     grid-template-columns: repeat(4, 1fr);
     justify-items: stretch;
+    padding: 50px;
   }
   .gallery-header {
     grid-column: 1/-1;
