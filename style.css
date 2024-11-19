@@ -177,7 +177,7 @@ body {
 .gallery-item-title {
   text-transform: uppercase;
   color: var(--white);
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: var(--fw-300-sans);
   position: absolute;
   top: 50%;
@@ -307,15 +307,19 @@ body {
     grid-column: 1/-1;
     grid-row: 1/-1;
     justify-self: right;
+    margin: 0 0.2rem 1rem 0;
   }
   .gallery img {
     width: 100%;
   }
+  .gallery-item-title {
+    top: 76%;
+  }
   .footer {
     margin-top : 3rem;
     grid-template-columns: repeat(2, 1fr);
-    gap: 0;
     grid-template-rows: 1fr;
+    row-gap: 22px;
     padding:33px 50px 25px 32px
   }
   .footer-items {
@@ -329,6 +333,7 @@ body {
   .logo {
     grid-column: 1/2;
     justify-self: left;
+    /* padding: 11px; */
   }
   .credits {
     grid-column: 2/3;
@@ -337,6 +342,7 @@ body {
   .companies {
     grid-column: 2;
     justify-self: right;
+    /* padding: 11px; */
   }
   .footer-items a {
     font-size: 1.22rem;
