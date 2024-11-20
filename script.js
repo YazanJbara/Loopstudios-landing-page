@@ -20,6 +20,6 @@ closeIcon.addEventListener('click', () => {
 
 // adding tab index to every img on the page to make it more accessible
 const images = document.querySelectorAll('img');
-images.forEach((img, index) => {
+images.forEach((img) => {
   img.setAttribute('tabindex', 0);
 });
