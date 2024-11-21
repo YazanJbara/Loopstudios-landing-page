@@ -369,7 +369,7 @@ body {
   but there is no available space for some items to be displayed properly
 */
 
-@media screen and (min-width: 701px) and (max-width: 850px) {
+@media screen and (min-width: 43.8125rem) and (max-width: 53.125rem) {
   .navbar-res {
     flex-direction: column;
     gap: 22px;
